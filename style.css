@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 120px;
+    background-color: white;
+    height:500px;
+    width:640px;
+    margin-top: 50px;
+
+
+}
+body{
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    background-color:  hsl(0, 0%, 86%);
+    font-family: 'Poppins', sans-serif;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    margin-top: 40px;
+    width: 480px; 
+   
+}
+.date input{
+width:120px;
+height: 50px;
+border-radius: 6px;
+border:1px hsl(0, 1%, 44%) solid;
+cursor: pointer;
+color: hsl(0,1%,44%);
+font-size: 30px;
+padding-left: 15px;
+}
+.date input:hover{
+    border:2px  hsl(259, 100%, 65%) solid;
+}
+hr{
+    color:hsl(0, 1%, 44%) ;
+    margin-top: 30px;
+    width:500px;
+    margin-left: 5px;
+}
+.mid .icon{
+    background-color: hsl(259, 100%, 65%) ;
+    width: 65px;
+    height:65px;
+    border-radius: 30px;
+    padding:6px;
+    border: none;
+    margin-top: 20px;
+    cursor:pointer;
+   
+
+}
+.mid .icon img{
+    width:35px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+
+   
+}
+.date .day{
+    display: flex;
+    flex-direction: column;
+}
+.date .month{
+    display: flex;
+    flex-direction: column;
+}
+.date .year{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 10px;
+    color: hsl(0, 1%, 44%);
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+}
+.mid .icon:hover{
+    background-color: black;
+    color:white;
+}
+
+.age{
+    
+    padding-left: 90px;
+    margin-top: 0px;
+    padding-top:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    width:500px
+}
+.age .monthcount{
+    
+    font-size: 3.9rem;
+    font-weight: 900;
+   padding-top: 0px;
+    margin-left: 50px;
+    width:350px
+    
+}
+.age .dayscount{
+   
+    font-size: 3.9rem;
+    font-weight: 900;
+     margin-left: 50px;
+      width:350px
+      
+}
+.age .yearcount{
+    
+    font-size: 3.9rem;
+    font-weight: 900;
+     margin-left: 50px;
+      width:350px
+    
+}
+#years{
+ color: hsl(259, 100%, 65%) ;;
+   
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+   
+}
+#months{
+   color: hsl(259, 100%, 65%) ;
+    padding-right: 15px;
+    
+
+}
+#days{
+    color: hsl(259, 100%, 65%) ;;
+    padding-right: 15px;
+    
+}
+input.error {
+  border: 2px solid red;
+  outline: none;
+   /* light red background (optional) */
+}
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 2px;
+  display: block;
+  font-weight: 400;
+}
